@@ -15,4 +15,8 @@ while attempts < 10:
     if guess == x:
         print("You guessed the number in " + str(attempts) + " tries.")
         break
-        
+
+if guess != x:
+    x = str(x)
+    print("The number was actually " + x + " .")
+
